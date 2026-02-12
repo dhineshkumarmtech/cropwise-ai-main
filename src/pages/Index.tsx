@@ -1,17 +1,8 @@
-import { Header } from '@/components/Header';
-import { HeroSection } from '@/components/HeroSection';
-import { FeaturesSection } from '@/components/FeaturesSection';
-import { Footer } from '@/components/Footer';
-
 const Index = () => {
   return (
-    <div className="min-h-screen flex flex-col">
-      <Header />
-      <main className="flex-1">
-        <HeroSection />
-        <FeaturesSection />
-      </main>
-      <Footer />
+    <div style={{padding:32}}>
+      <h1 style={{fontSize:28,fontWeight:700}}>Crop Doc — Test Page</h1>
+      <p>If you see this text the React app has mounted correctly.</p>
     </div>
   );
 };
